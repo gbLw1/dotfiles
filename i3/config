@@ -166,7 +166,19 @@ bindcode $mod+Shift+90 	 move container to workspace  $ws10
 #        bindsym Escape mode "default"
 #}
 
-#bindsym $mod+r mode "resize"
+# bindsym $mod+r mode "resize"
+
+# as the resize mode its not working as expected we use the following keybindings to resize windows:
+bindsym $mod+Ctrl+Shift+h resize shrink width 5 px or 5 ppt
+bindsym $mod+Ctrl+Shift+k resize grow height 5 px or 5 ppt
+bindsym $mod+Ctrl+Shift+j resize shrink height 5 px or 5 ppt
+bindsym $mod+Ctrl+Shift+l resize grow width 5 px or 5 ppt
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Ctrl+Shift+Left resize shrink width 5 px or 5 ppt
+bindsym $mod+Ctrl+Shift+Up resize grow height 5 px or 5 ppt
+bindsym $mod+Ctrl+Shift+Down resize shrink height 5 px or 5 ppt
+bindsym $mod+Ctrl+Shift+Right resize grow width 5 px or 5 ppt
 
 ######################################
 # keybindings for different actions: #
