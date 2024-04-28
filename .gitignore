@@ -1,10 +1,10 @@
 *
 !.gitignore
-!zsh # shell terminal
-!awesome # window manager
-!i3 # window manager
-!alacritty # terminal emulator
-!picom # compositor (transparency, blur, shadows, etc)
-!fastfetch # system info fetcher when you open a terminal
-!dconfg   # gnome settings
-!gtk  # theme for gnome
+!zsh
+!awesome
+!i3
+!alacritty
+!picom
+!fastfetch
+!dconfg
+!gtk
