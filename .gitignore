@@ -1,29 +1,38 @@
 *
 !.gitignore
 
+# zsh terminal
 !zsh
 !zsh/**/*
 
+# window manager
 !awesome
 !awesome/**/*
 
+# window manager
 !i3
 !i3/**/*
 
+# terminal emulator
 !alacritty
 !alacritty/**/*
 
+# compositor (transparency, blur, shadows, etc)
 !picom
 !picom/**/*
 
+# system info fetcher when u open terminal
 !fastfetch
 !fastfetch/**/*
 
+# gnome settings
 !dconfg
 !dconfg/**/*
 
+# theme for gnome
 !gtk
 !gtk/**/*
 
+# neovim settings
 !nvim
 !nvim/**/*
