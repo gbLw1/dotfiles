@@ -6,12 +6,12 @@ This repository contains my dotfiles. I use EndeavourOS with i3 as my window man
 
 ## Table of Contents
 
-* [Neovim](./nvim)
-* [i3](./i3)
-* [Awesome](./awesome)
-* [Zsh](./zsh)
-* [Alacritty](./alacritty)
-* [Picom](./picom)
+* [alacritty](./alacritty)
+* [awesome](./awesome)
 * [fastfetch](./fastfetch)
 * [gtk](./gtk-3.0)
+* [i3](./i3)
+* [neovim](./nvim)
+* [picom](./picom)
+* [zsh](./zsh)
 
