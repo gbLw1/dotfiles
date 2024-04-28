@@ -2,25 +2,25 @@
 !.gitignore
 
 !zsh
-!zsh/*
+!zsh/**/*
 
 !awesome
-!awesome/*
+!awesome/**/*
 
 !i3
-!i3/*
+!i3/**/*
 
 !alacritty
-!alacritty/*
+!alacritty/**/*
 
 !picom
-!picom/*
+!picom/**/*
 
 !fastfetch
-!fastfetch/*
+!fastfetch/**/*
 
 !dconfg
-!dconfg/*
+!dconfg/**/*
 
 !gtk
-!gtk/*
+!gtk/**/*
