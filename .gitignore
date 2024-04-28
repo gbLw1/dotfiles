@@ -25,13 +25,9 @@
 !fastfetch
 !fastfetch/**/*
 
-# gnome settings
-!dconfg
-!dconfg/**/*
-
 # theme for gnome
-!gtk
-!gtk/**/*
+!gtk-3.0
+!gtk-3.0/**/*
 
 # neovim settings
 !nvim
