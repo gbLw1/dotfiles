@@ -26,7 +26,7 @@
 font pango: Noto Sans Regular 10
 
 # set the mod key to the winkey:
-set $mod Mod4
+set $mod Mod1
 
 #####################
 # workspace layout: #
@@ -290,7 +290,7 @@ bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 bindsym $mod+p exec --no-startup-id /usr/local/bin/switch-audio-port
 
 ## App shortcuts
-bindsym $mod+Shift+s exec --no-startup-id /usr/bin/flatpak run org.flameshot.Flameshot gui
+bindsym --release Print exec --no-startup-id /usr/bin/flatpak run org.flameshot.Flameshot gui
 bindsym $mod+w exec --no-startup-id /usr/bin/firefox
 bindsym $mod+n exec --no-startup-id /usr/bin/thunar
 bindsym Print exec --no-startup-id scrot ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
@@ -331,8 +331,9 @@ set $ws10 "10"
 
 # bind program to workspace and focus to them on startup:
 # assign [class="Xfce4-terminal"] $ws1
-assign [class="Alacritty"] $ws1
-assign [class="(?i)firefox"] $ws2
+assign [class="Alacritty"] $ws2
+assign [class="(?i)firefox"] $ws1
+assign [class="discord"] $ws1
 assign [class="Thunar"] $ws3
 assign [class="thunderbird"] $ws4
 assign [class="TelegramDesktop"] $ws5
