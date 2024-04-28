@@ -1,8 +1,6 @@
-# My dotfiles
+# Dotfiles
 
-This repository contains my dotfiles. I use EndeavourOS with i3 as my window manager.
-
-(Arch Linux btw, neovim btw)
+I use EndeavourOS with i3 as my window manager. (Arch Linux btw, neovim btw)
 
 ## Table of Contents
 
