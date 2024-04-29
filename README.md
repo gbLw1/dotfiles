@@ -13,3 +13,10 @@ I use EndeavourOS with i3 as my window manager. (Arch Linux btw, neovim btw)
 * [picom](./picom)
 * [zsh](./zsh)
 
+
+Obs.: cloning nvim
+
+```bash
+git submodule update --init --recursive
+```
+
