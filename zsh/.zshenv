@@ -103,8 +103,8 @@ export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
 export XINITRC="$XDG_CONFIG_HOME"/X11/xinitrc
 
 # https://bbs.archlinux.org/viewtopic.php?id=251330
-# export ASPNETCORE_Kestrel__Certificates__Default__Password="" # No password
-# export ASPNETCORE_Kestrel__Certificates__Default__Path="${XDG_DATA_HOME}/.aspnet/https/aspnetapp.pfx"
+export ASPNETCORE_Kestrel__Certificates__Default__Password="" # No password
+export ASPNETCORE_Kestrel__Certificates__Default__Path="${XDG_DATA_HOME}/.aspnet/https/aspnetapp.pfx"
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 export DOTNET_CLI_HOME="$XDG_DATA_HOME"/dotnet
 export OMNISHARPHOME="$XDG_CONFIG_HOME/omnisharp"
