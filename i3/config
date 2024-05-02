@@ -359,6 +359,7 @@ workspace $ws9 output HDMI-1 eDP-1
 assign [class="Alacritty"] $ws2
 assign [class="(?i)firefox"] $ws3
 assign [class="discord"] $ws1
+assign [class="steam"] $ws10
 # assign [class="Thunar"] $ws3
 # assign [class="thunderbird"] $ws4
 # assign [class="TelegramDesktop"] $ws5
@@ -367,6 +368,8 @@ assign [class="discord"] $ws1
 # for_window [class=Xfce4-terminal] focus
 for_window [class=Alacritty] focus
 for_window [class=(?i)firefox] focus
+for_window [class=discord] focus
+for_window [class=steam] focus
 for_window [class=Thunar] focus
 for_window [class=Thunderbird] focus
 for_window [class=TelegramDesktop] focus
