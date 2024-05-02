@@ -93,7 +93,7 @@ export PNPM_HOME="$XDG_DATA_HOME"/pnm
 export PATH="$PNPM_HOME:$PATH"
 
 # General
-# export TERM=alacritty
+# export TERM=alacritty # commented because endeavouros uses xterm as default
 export BROWSER=firefox
 export MAIL=thunderbird
 export EDITOR=nvim
