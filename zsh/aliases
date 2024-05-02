@@ -4,3 +4,4 @@ alias floorp=one.ablaze.floorp
 alias steam=com.valvesoftware.Steam
 alias adb='HOME="$XDG_DATA_HOME"/android adb'
 alias a='clear && ls -lha'
+alias steamfolder='cd ~/.var/app/com.valvesoftware.Steam/.local/share/Steam && ls -lha'
